@@ -70,6 +70,16 @@ import { LinkingContext } from "@react-navigation/native"
         fontSize: 14,
         color: colors.gray[400],
     },
+    modalFooter:{
+        flexDirection:"row",
+        marginTop: 22,
+        width: "100%",
+        justifyContent: "space-between",
+        borderTopWidth: 1,
+        borderTopColor: colors.gray[600],
+        paddingVertical: 14,
+
+    },
 
 
 

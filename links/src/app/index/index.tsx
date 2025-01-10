@@ -7,6 +7,7 @@ import { styles } from "./styles"
 import { colors } from "@/styles/colors"
 
 import { Link } from "@/componets/link"
+import { Option } from "@/componets/option"
 import { Categories } from "@/componets/categories"
 
 export default function Index() {
@@ -48,14 +49,14 @@ export default function Index() {
                     <MaterialIcons name="close" size={20} color={colors.gray[400]}/>
                     </TouchableOpacity>
                 </View>
-                <Text style={styles.modalLinkName}>
-                    Rocketseat
-                </Text>
-                <Text style={styles.modalUrl}>
-                htts://www.rocketseat.com.br/
-                </Text>
-            </View>
+                <Text style={styles.modalLinkName}>Rocketseat</Text>
+                <Text style={styles.modalUrl}>htts://www.rocketseat.com.br/</Text>
+            </View >
+            <View style={styles.modalFooter}>
+            <Option  name="Excluir" icon="delete" variant="secondary"/>
+            <Option name="Abrir" icon="language"/>
 
+        </View>
         </View>
 
     </Modal>
