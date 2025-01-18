@@ -5,6 +5,8 @@ import { router } from "expo-router";
 import { styles } from "./styles";
 import { colors } from "@/styles/colors";
 
+
+import { Button } from "@/componets/button";
 import { Input } from "@/componets/input";
 import { Categories } from "@/componets/categories";
 
@@ -23,6 +25,7 @@ export default function Add(){
                 <View style={styles.form}>
                 <Input placeholder="Nome"/>
                 <Input placeholder="Url"/>
+                <Button title="Adiciconar"/>
                 </View>
         </View>
 
